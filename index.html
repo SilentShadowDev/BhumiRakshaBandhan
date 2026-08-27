@@ -438,6 +438,7 @@ a, button{ -webkit-tap-highlight-color: transparent; }
   position:absolute; inset:0;
   background: radial-gradient(50% 40% at 50% 40%, rgba(201,162,78,.28), transparent 70%);
   animation: glowBreathe 7s ease-in-out infinite;
+  pointer-events: none;
 }
 .heart .section-heading{ position:relative; z-index:2; }
 .heart-lines{
@@ -676,8 +677,8 @@ a, button{ -webkit-tap-highlight-color: transparent; }
        does nothing when tapped — nothing breaks.
      ============================================================ */
   const CONFIG = {
-    sisterName: "Sis",
-    brotherName: "Your Brother",
+    sisterName: "Bhumi",
+    brotherName: "Aditya",
 
     hero: {
       greeting: "Hey {sister}…",
@@ -687,7 +688,7 @@ a, button{ -webkit-tap-highlight-color: transparent; }
 
     letter: {
       heading: "Happy Raksha Bandhan, {sister} ❤️",
-      body: "[WRITE YOUR PERSONAL MESSAGE HERE]",
+      body: "Bata waffle khaegi ??",
       signoff: "— {brother}",
       button: "There's More"
     },
@@ -696,15 +697,15 @@ a, button{ -webkit-tap-highlight-color: transparent; }
       heading: "Some Memories…",
       button: "Continue",
       items: [
-        { src: "photos/memory-1.jpg", date: "", caption: "Remember this one?" },
-        { src: "photos/memory-2.jpg", date: "", caption: "How did we even survive this day?" },
-        { src: "photos/memory-3.jpg", date: "", caption: "One of my favorite memories." }
+        { src: "photos/img1.jpg", date: "", caption: "Hlo" },
+        { src: "photos/img2.jpg", date: "", caption: "Mine" },
+        { src: "photos/img3.jpg", date: "", caption: "Name" }
       ]
     },
 
     heart: {
-      heading: "But honestly…",
-      lines: [ "[WRITE YOUR MOST PERSONAL MESSAGE HERE]" ],
+      heading: "But remember",
+      lines: [ "No matter what happens your big brother is there for you." ],
       button: "Continue"
     },
 
